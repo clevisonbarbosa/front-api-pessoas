@@ -39,3 +39,5 @@ O código-fonte do componente `Pessoas` está localizado em `src/app/components/
 ### Modelo de Pessoa (Pessoa.ts)
 
 O modelo de dados para a entidade Pessoa está em `src/app/Pessoa.ts`.
+
+![Video](amostra.gif)
