@@ -1,27 +1,41 @@
-# AppAngular
+# Frontend para Projeto front-api-pessoas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+Este é o frontend do front-api-pessoas, desenvolvido em Angular. O frontend é responsável pela interface do usuário e interação com o backend fornecido pelo projeto .NET.
 
-## Development server
+## Configuração e Execução
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Instalação de Dependências:**
+   - Execute o comando a seguir para instalar as dependências:
+     ```bash
+     npm install
+     ```
 
-## Code scaffolding
+2. **Executar o Servidor de Desenvolvimento:**
+   - Execute o seguinte comando para iniciar o servidor de desenvolvimento:
+     ```bash
+     ng serve
+     ```
+   - Acesse a aplicação em `http://localhost:4200/pessoas` no navegador.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- Angular
+- Angular CLI
+- ngx-bootstrap para componentes Bootstrap no Angular
+- Outras dependências do npm
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estrutura do Projeto
 
-## Running unit tests
+- `src/app`: Contém os componentes, serviços e módulos da aplicação.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Componente Pessoas
 
-## Running end-to-end tests
+O componente `Pessoas` é responsável por exibir e interagir com a entidade de Pessoa. Ele possui funcionalidades de listagem, adição, atualização e exclusão de pessoas.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Componente Pessoas (pessoas.component)
 
-## Further help
+O código-fonte do componente `Pessoas` está localizado em `src/app/components/pessoas/pessoas.component.ts`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Modelo de Pessoa (Pessoa.ts)
+
+O modelo de dados para a entidade Pessoa está em `src/app/Pessoa.ts`.
